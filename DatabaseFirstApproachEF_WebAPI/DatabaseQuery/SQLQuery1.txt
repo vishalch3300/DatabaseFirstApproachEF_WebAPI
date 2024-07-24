@@ -1,0 +1,19 @@
+﻿
+CREATE DATABASE web_api_crud_db
+
+USE web_api_crud_db
+
+-------------------------------------------------
+
+CREATE TABLE Employee(
+id int PRIMARY KEY IDENTITY,
+name varchar,
+gender varchar(50),
+age int,
+designation varchar(50),
+salary int,
+)
+
+-------------------------------------------------
+
+SELECT * FROM Employee
